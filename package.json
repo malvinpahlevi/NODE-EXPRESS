@@ -1,0 +1,33 @@
+{
+  "name": "school-app",
+  "version": "1.0.0",
+  "description": "Backend API school-app",
+  "main": "index.js",
+  "scripts": {
+    "dev": "set NODE_ENV=development&& nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "alfresco-js-api-node": "^4.0.0-beta1",
+    "axios": "^1.4.0",
+    "basic-ftp": "^5.0.3",
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.3.1",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.2",
+    "express-validator": "^7.0.1",
+    "express-winston": "^4.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "moment": "^2.29.4",
+    "mysql2": "^3.6.2",
+    "node-cache": "^5.1.2",
+    "nodemailer": "^6.9.7",
+    "winston": "^3.11.0",
+    "winston-daily-rotate-file": "^4.7.1"
+  }
+}

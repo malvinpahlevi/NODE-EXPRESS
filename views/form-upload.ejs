@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>File Upload</title>
+    <style>
+        body {
+            display: grid;
+            place-items: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>File Upload</h1>
+  <form action='/api/v1/ftp-client/upload'
+        method='post'
+        encType="multipart/form-data">
+    <input type="file" name="sampleFile" />
+    <input type='submit' value='Upload' />
+  </form>
+</body>
+</html>
